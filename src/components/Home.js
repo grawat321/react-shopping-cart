@@ -1,4 +1,5 @@
 import React from 'react'
+import iphone from '../iphone.jpg'
 
 function Home(props) {
     return (
@@ -7,14 +8,14 @@ function Home(props) {
             <h1>Home Component</h1>
             <div className="cart-wrapper">
                 <div className="img-wrapper item">
-                    <img src="https://www.fdfproject.com/wp-content/uploads/2018/12/iphone-png.png" />
+                    <img src={iphone} />
                 </div>
                 <div className="text-wrapper item">
                     <span>
-                        I-Phone
+                        iPhone
                     </span>
                     <span>
-                        Price: $1000.00
+                        Price: $1000
                     </span>
                 </div>
                 <div className="btn-wrapper item">
